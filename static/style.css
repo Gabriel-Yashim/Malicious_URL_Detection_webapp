@@ -1,0 +1,425 @@
+  *,
+  ::after,
+  ::before {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+  }
+
+  html {
+      scroll-behavior: smooth;
+      font-size: 100%;
+  }
+
+  ::-webkit-scrollbar {
+      width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: rgba(86, 255, 255, 0.077);
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: rgb(2, 134, 134);
+      border-radius: 5px;
+  }
+
+  body {
+      background-color: rgba(86, 255, 255, 0.077);
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .center{
+    margin: auto;
+  }
+  .container {
+      width: 90%;
+      padding-top: 15px;
+      padding-right: 10px;
+      padding-left: 10px;
+      margin: auto;
+  }
+
+  .text-center {
+      text-align: center !important;
+  }
+
+  .head {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../static/images/bg_1.webp');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      height: 80vh;
+      width: 100%;
+      margin-top: 0;
+      /* justify-content: center; */
+      /* box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); */
+  }
+
+  .tag {
+      justify-content: center;
+      font-size: 50px;
+      color: white;
+  }
+
+  #name {
+      font-size: 30px;
+      font-family: 'Courier New', Courier, monospace;
+
+
+  }
+
+  .head .tag {
+      height: 500px;
+      width: 100%;
+  }
+
+  h1 {
+      font-size: 4rem;
+      text-align: center;
+      margin: 3rem 0;
+  }
+
+  .intro p {
+      margin: 3rem;
+      color: #000;
+      text-align: justify;
+      padding: 20px 10px;
+      font-size: 20px;
+      letter-spacing: 1px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 100%;
+      grid-gap: 30px;
+      margin-bottom: 20px;
+  }
+
+  .bx {
+      border: 2px solid rgb(2, 134, 134);
+      padding: 10px;
+      height: 95%;
+      margin-bottom: 20px;
+      border-radius: 10px;
+  }
+
+  .cell {
+      border: rgba(0, 0, 0, 0.2) 1px solid;
+      margin: .5rem 0;
+      padding: .5rem;
+      height: max-content;
+      text-align: justify;
+      width: 100%;
+  }
+
+  .cell>select,
+  input {
+      width: 100%;
+      margin-top: .7rem;
+      height: 35px;
+      border-radius: 5px;
+      outline: none;
+  }
+
+
+  label {
+      font-size: .9rem;
+      text-align: justify;
+  }
+
+  #score {
+      color: black;
+      padding: 5px;
+      font-size: .7rem;
+      width: 100%;
+  }
+
+  #base {
+      width: 100%;
+      justify-content: space-between;
+      display: flex;
+      height: 20px;
+      padding: 5px 30px;
+      margin-bottom: 40px;
+  }
+
+  .btn {
+      padding: 7px 70px;
+      font-size: 1.3rem;
+      border-radius: 5px;
+      border: 0;
+  }
+
+  .submit {
+      color: rgb(2, 134, 134);
+      background-color: #fff;
+  }
+
+  .submit:hover {
+      background-color: rgb(2, 196, 196);
+      color: #fff;
+  }
+
+  .clear {
+      color: #000;
+      background-color: #fff;
+  }
+
+  .clear:hover {
+      background-color: #e3e3e3;
+  }
+
+  #pred {
+      /* background-color: white; */
+      box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+      margin: auto;
+      width: 100%;
+      padding: 30px;
+      font-size: 20px;
+  }
+
+  #pred>label {
+      font-size: 1rem;
+  }
+
+  #pred>p {
+      border: #000 1px solid;
+      color: #000;
+      font-size: .9rem;
+      font-weight: 700;
+      padding: 5px 10px;
+  }
+
+  .results{
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 40%;
+    text-align: center;
+  }
+
+  footer {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../static/images/bg_2.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 30vh;
+      background-attachment: scroll;
+      color: #fff;
+      position: relative;
+  }
+
+  footer ul {
+      font-size: 16px;
+  }
+
+  footer li {
+      padding: 5px 0px;
+  }
+
+  .footer {
+      padding-top: 4rem;
+      text-align: justify;
+  }
+
+  .footer .grid {
+      margin-bottom: 3rem;
+  }
+
+  .grid .col {
+      border-radius: 10px;
+      padding: 10px 25px;
+  }
+
+  /* .col:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+  } */
+
+  h3 {
+      color: rgb(2, 134, 134);
+  }
+
+  footer col:hover,h3{
+    color: rgb(16, 207, 207);
+}
+
+  p,
+  a {
+      font-size: 1rem;
+  }
+
+  a {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  a:hover {
+      color: rgb(2, 134, 134);
+      transition: .3s ease-in-out;
+  }
+
+  .col #none {
+      list-style-type: none;
+  }
+
+  .text-center {
+      font-size: .9rem;
+  }
+
+  /* ####### Responsive design for Mini desktop starts here ###### */
+  @media screen and (min-width: 901px) and (max-width: 1024px) {
+      .container {
+          width: 90%;
+      }
+
+      h1 {
+          text-align: left;
+      }
+
+      footer {
+          height: 90vh;
+      }
+
+      .footer {
+          padding-top: 1rem;
+      }
+
+      .footer .grid {
+          margin-bottom: 1rem;
+      }
+
+      .grid .col {
+          padding: 1rem;
+      }
+  }
+
+  /* ####### Responsive design for Tablets starts here ###### */
+  @media screen and (min-width: 600px) and (max-width: 900px) {
+
+      .head {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../static/images/bg_2.jpg');
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          height: 100vh;
+          width: 100%;
+          margin-top: 0;
+          /* justify-content: center; */
+          /* box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); */
+      }
+
+      h1 {
+          font-size: 3rem;
+          text-align: left;
+      }
+
+      .grid {
+          grid-template-columns: 1fr;
+          grid-gap: 10px;
+      }
+
+      #pred {
+          width: 70%;
+      }
+
+      footer {
+          height: 100vh;
+      }
+
+      .footer {
+          padding-top: 1rem;
+      }
+
+      .footer .grid {
+          margin-bottom: 1rem;
+      }
+
+      .grid .col {
+          padding: 1rem;
+      }
+
+  }
+
+
+  /* ####### Responsive design for mobile devices starts here ###### */
+
+  @media screen and (min-width: 300px) and (max-width: 599px) {
+
+      .container {
+          width: 90%;
+      }
+
+      .head {
+          background-position: center;
+      }
+
+      .tag {
+          margin-top: 8rem;
+      }
+
+      #name {
+          font-size: 1.4rem;
+      }
+
+      h1 {
+          font-size: 1.7rem;
+          text-align: left;
+      }
+
+      .intro {
+          line-height: 1.5;
+      }
+
+      .grid {
+          grid-template-columns: 1fr;
+          grid-gap: 7px;
+      }
+
+
+
+      #base {
+          padding: 5px 10px;
+      }
+
+      .btn {
+          padding: 7px 30px;
+      }
+
+
+
+      #pred {
+          width: 100%;
+      }
+
+      footer {
+          height: 100vh;
+      }
+
+      ul li {
+          font-size: .8rem;
+      }
+
+      .footer {
+          padding-top: .5rem;
+      }
+
+      .footer .grid {
+          margin-bottom: .5rem;
+      }
+
+      .grid .col {
+          padding: .5rem 1rem;
+      }
+
+
+      p,
+      a {
+          font-size: .8rem;
+      }
+  }

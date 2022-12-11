@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Depression Prediction webapp</title>
+
+    <link rel="icon" type="image/png" href="../static/images/bg_1.jpg">
+    
+<style>
+
+</style>
+</head>
+
+<body>
+    <section class="head">
+       <div class="container">
+        <div class="tag">
+            <h1>MALICIOUS URL DETECTION USING MACHINE LEARNING</h1>
+            <p id="name">By <br>Usman Abdulmajid Yunusa</p>
+        </div>
+       </div>
+    </section>
+    <hr>
+    <section class="body">
+        <div class="container">
+            <!-- <div class="intro">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque quasi mollitia omnis sit quis aliquam numquam ab, illum tempore, placeat nulla, quidem incidunt ipsum. Reiciendis quibusdam aliquid quae repudiandae possimus aspernatur? Laboriosam nihil itaque impedit similique, amet sit quidem beatae asperiores, iste cupiditate totam omnis inventore dicta quo, illo ab? Perferendis minima alias non quasi, culpa nobis voluptatum saepe repudiandae delectus? Architecto numquam similique exercitationem provident, aliquid soluta delectus minus magni amet corporis ullam iure pariatur sunt labore recusandae at quasi suscipit dolores esse sequi? Sint voluptatem repudiandae, soluta, architecto rerum excepturi aliquid debitis id accusantium, aperiam sit beatae?
+                </p>
+             -->
+            </div>
+        </div>
+        <!-- <div class="dim"></div> -->
+        <div class="container">
+           
+            <form action="{{url_for('predict')}}" method="post">
+                    <div class="center">
+                        <div class="bx">
+                            <label for="name">Enter Your URL: </label>
+                            <input type="text" name="name">
+                            
+                               
+                            
+                        </div>
+                    </div>
+
+                <!-- <div class="container"> -->
+                    <div id="base">
+                       <div>
+                        <button type="submit" id="btn" class="btn submit">Submit</button>
+                       </div>
+
+                        <div>
+                            <button type="reset" class="btn clear">Clear</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            
+            <br>
+            <br>
+        </div>
+
+        <hr>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <!-- <div class="grid">
+                    <div class="col">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus saepe vel veritatis modi
+                            laboriosam
+                            ducimus doloremque eius, rem quae eos nihil labore nulla incidunt deleniti, odit recusandae architecto tempore?
+                            Reiciendis obcaecati ad est nisi totam quos, incidunt temporibus consectetur amet eligendi quaerat perspiciatis fuga
+                            ullam optio eos doloremque iure?
+                        
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus saepe vel veritatis modi
+                            laboriosam
+                            ducimus doloremque eius, rem quae eos nihil labore nulla incidunt deleniti, odit recusandae architecto tempore?
+                            Reiciendis obcaecati ad est nisi totam quos, incidunt temporibus consectetur amet eligendi quaerat perspiciatis fuga
+                            ullam optio eos doloremque iure?
+                        
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus saepe vel veritatis modi
+                            laboriosam
+                            ducimus doloremque eius, rem quae eos nihil labore nulla incidunt deleniti, odit recusandae architecto tempore?
+                            Reiciendis obcaecati ad est nisi totam quos, incidunt temporibus consectetur amet eligendi quaerat perspiciatis fuga
+                            ullam optio eos doloremque iure?
+                        
+                        </p>
+                
+                    </div>
+                </div> -->
+            </div>
+            <p class="text-center">
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved
+            </p>
+        </footer>
+<!-- <script>
+    let btn = document.getElementById('btn');
+        let textToShow = document.getElementById('text');
+
+        btn.addEventListener('click', () => {
+            if (textToShow.style.display === 'none') {
+                textToShow.style.display = 'block';
+                textToShow.style.transition= '.5s ease';
+            }
+            else {
+                textToShow.style.display = 'none';
+            }
+        })
+
+</script> -->
+
+</body>
+
+</html>
